@@ -1,0 +1,144 @@
+﻿<!DOCTYPE html>
+
+<script>
+function getDateTime() {
+        var now     = new Date(); 
+        var year    = now.getFullYear();
+        const date = new Date(2009, 10, 10);
+        var month   = date.toLocaleString('default', { month: 'short' }); 
+        
+        var day     = now.getDate();
+        var hour    = now.getHours();
+        var minute  = now.getMinutes();
+        var second  = now.getSeconds(); 
+
+        
+        if(month.toString().length == 1) {
+             month = '0'+month;
+        }
+        if(day.toString().length == 1) {
+             day = '0'+day;
+        }   
+        if(hour.toString().length == 1) {
+             hour = '0'+hour;
+        }
+        if(minute.toString().length == 1) {
+             minute = '0'+minute;
+        }
+        if(second.toString().length == 1) {
+             second = '0'+second;
+        }   
+        var dateTime =   day+'  '+month+'  '+year+'  '+hour+':'+minute+':'+second;   
+         return dateTime;
+    }
+
+    // example usage: realtime clock
+    setInterval(function(){
+        currentTime = getDateTime();
+        document.getElementById("digital-clock").innerHTML = currentTime;
+    }, 1000);
+
+
+</script>
+
+
+
+
+<html>
+    <header>
+        
+        
+        
+
+
+        <link rel='stylesheet' href='stylesheet.css' type='text/css'>
+        <title>More Websites About Buildings And Food [Ceefax Edition]</title>
+        <link rel="icon" href="assets/icons/ceefax.ico">
+
+
+
+        <meta name="description" content="A cool, multi-purpose domain. Hosting all projects and sites by Arron Ware. Come have a look around! :)">
+        <meta name="keywords" content="projects, arron, grimsby, ware, programming, photography, england, web design, music, blog">
+        <meta name="robots" content="index, follow">
+        <meta Content-Type="text/html" charset="utf-8 BOM">
+        <meta name="language" content="English">
+        <meta name="author" content="Arron Ware">
+
+
+
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://morewebsitesaboutbuildingsandfood.com">
+        <meta property="og:title" content="More Websites About Buildings And Food.com [Ceefax Edition]">
+        <meta property="og:description" content="A cool, multi-purpose domain. Hosting all projects and sites by Arron Ware.">
+        <meta property="og:image" content="assets/icons/florence.png">
+
+
+
+
+    </header>
+
+    <body class="crt">
+        <div id="topbar">
+            <div id="pgnum"><h2>Pg001 &nbsp MWABNF {Ceefax Edition}</h2></div>
+            <div id="datentime"><h2 id="digital-clock"></h2></div>
+
+        </div>
+        <br>
+        <br>
+<div class="red" id="art">
+███████             
+  ███               █  
+  ███   ▄▄▄▄▄▄  ▄▄▄▄█  ▄▄▄▄   ██ █
+  ███   ██   █  ██  █  ██▄▄█   ██
+  ███   ██   █  ██▄▄█  ██▄▄▄  ██ █
+███████ <h2 class="white">▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄</>
+</div>
+
+        <div id="indexbox">
+            <div id="indexcontent">
+                <a href="sites002">   <h2>Sites...............002</h2></a>
+                <a href="services003"><h2>Services............003</h2></a>
+                <a href="links004">   <h2>Links...............004</h2></a>
+            </div>
+            
+            
+            <h2 class="white">▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄</>
+        </div>
+
+        
+
+<div id="indexpic" style="color:darkgray;" class="art">
+<pre>
+
+    █
+    █
+    █
+    █
+    █
+    █
+    █
+    █
+    █
+    █
+    █
+    █
+    █
+    █
+    █
+
+
+
+</pre>
+
+
+</div>
+    
+
+    </body>
+</html>
+
+
+   
+
+
+<!-- ▄  █ -->
